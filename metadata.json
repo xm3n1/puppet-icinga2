@@ -1,7 +1,7 @@
 {
-  "name": "evgeni-icinga2",
+  "name": "puppet-icinga2",
   "version": "0.1.0",
-  "author": "evgeni",
+  "author": "reyerdam",
   "summary": "install and configure icinga2",
   "license": "BSD",
   "source": "https://github.com/evgeni/puppet-icinga2",

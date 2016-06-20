@@ -4,7 +4,7 @@ class icinga2::package(
 
   apt::source { 'debmon_org':
     location   => 'http://debmon.org/debmon',
-    release    => 'debmon-wheezy',
+    release    => 'debmon-jessie',
     repos      => 'main',
     key        => 'DC0EE15A29D662D2',
     key_source => 'http://debmon.org/debmon/repo.key',

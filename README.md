@@ -114,9 +114,4 @@ with things. (We are working on automating this section!)
 
 ## Limitations
 
-Puppet 2.7+ and Debian Wheezy only currently, more to come.
-
-## Development
-
-Pull-requests are awesome. They are even more awesome if they include tests
-for the functionality you add or alter.
+Puppet >3 and Debian Jessie only currently, more to come.

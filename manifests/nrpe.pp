@@ -11,13 +11,6 @@
 #  class { icinga2::nrpe:
 #  }
 #
-# === Authors
-#
-# Evgeni Golov <evgeni@golov.de>
-#
-# === Copyright
-#
-# Copyright 2014 Evgeni Golov, unless otherwise noted.
 #
 class icinga2::nrpe {
   include icinga2::nrpe::package
