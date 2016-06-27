@@ -15,4 +15,4 @@ class icinga2::web::package(
     refreshonly => true,
   }
 
-}
+

@@ -2,13 +2,6 @@
 #
 # Installs the icinga2 package.
 #
-# === Authors
-#
-# Evgeni Golov <evgeni@golov.de>
-#
-# === Copyright
-#
-# Copyright 2014 Evgeni Golov, unless otherwise noted.
 #
 class icinga2::nrpe::service (
   $ensure_running = hiera('ensure_running', $icinga2::params::ensure_running),

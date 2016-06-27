@@ -1,25 +1,13 @@
 {
-  "name": "puppet-icinga2",
-  "version": "0.1.0",
-  "author": "reyerdam",
-  "summary": "install and configure icinga2",
-  "license": "BSD",
-  "source": "https://github.com/evgeni/puppet-icinga2",
-  "project_page": "https://github.com/evgeni/puppet-icinga2",
-  "issues_url": "https://github.com/evgeni/puppet-icinga2/issues",
-  "dependencies": [
-    {
-      "name": "puppetlabs-stdlib",
-      "version_range": ">= 4.2.0"
-    },
-    {
-      "name": "puppetlabs-apt",
-      "version_range": ">= 1.0.0"
-    },
-    {
-      "name": "puppetlabs-concat",
-      "version_range": ">= 1.0.0"
-    }
-  ]
+  "author": "robin eyerdam",
+  "dependencies": [],
+  "license": "",
+  "name": "reyerdam-accso_icinga2multi",
+  "operatingsystem_support": [],
+  "project_page": "",
+  "requirements": [],
+  "source": "",
+  "summary": "",
+  "tags": [],
+  "version": "0.1.0"
 }
-

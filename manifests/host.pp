@@ -13,13 +13,6 @@
 #  class { icinga2::host:
 #  }
 #
-# === Authors
-#
-# Evgeni Golov <evgeni@golov.de>
-#
-# === Copyright
-#
-# Copyright 2014 Evgeni Golov, unless otherwise noted.
 #
 class icinga2::host (
   $address = $::ipaddress,

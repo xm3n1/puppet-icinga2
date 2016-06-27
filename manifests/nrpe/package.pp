@@ -12,13 +12,6 @@
 #  class { icinga2::nrpe::package:
 #  }
 #
-# === Authors
-#
-# Evgeni Golov <evgeni@golov.de>
-#
-# === Copyright
-#
-# Copyright 2014 Evgeni Golov, unless otherwise noted.
 #
 class icinga2::nrpe::package (
   $ensure = hiera('ensure', $icinga2::params::ensure),

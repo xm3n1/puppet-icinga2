@@ -15,13 +15,6 @@
 #  class { icinga2::nrpe::config:
 #  }
 #
-# === Authors
-#
-# Evgeni Golov <evgeni@golov.de>
-#
-# === Copyright
-#
-# Copyright 2014 Evgeni Golov, unless otherwise noted.
 #
 class icinga2::nrpe::config (
   $allowed_hosts = hiera('icinga2::nrpe::allowed_hosts', $icinga2::params::allowed_hosts),

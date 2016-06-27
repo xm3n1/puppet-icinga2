@@ -2,13 +2,6 @@
 #
 # Default parameters for the icinga class.
 #
-# === Authors
-#
-# Evgeni Golov <evgeni@golov.de>
-#
-# === Copyright
-#
-# Copyright 2014 Evgeni Golov, unless otherwise noted.
 #
 class icinga2::params {
 
@@ -16,7 +9,7 @@ class icinga2::params {
     Debian: {
       $icinga2_package     = 'icinga2'
       $classicui_package   = 'icinga2-classicui'
-      $web_package         = 'icinga-web'
+      $web_package         = 'icingaweb2'
       $frontend            = 'classicui'
       $frontend_users      = { icingaadmin => '$apr1$QjQi49DK$R2n42by8lpmaMP6D69gki1' }
       $backend             = 'pgsql'
