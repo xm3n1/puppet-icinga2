@@ -11,7 +11,7 @@ class icinga2::params {
       $classicui_package   = 'icinga2-classicui'
       $web_package         = 'icingaweb2'
       $frontend            = 'classicui'
-      $frontend_users      = { icingaadmin => '$apr1$QjQi49DK$R2n42by8lpmaMP6D69gki1' }
+      $frontend_users      = { icingaadmin => '$apr1$aDHIreXJ$6mvdG9M8qSK4pc0XUOqD91' }
       $backend             = 'pgsql'
       $ido_mysql_package   = 'icinga2-ido-mysql'
       $ido_pgsql_package   = 'icinga2-ido-pgsql'
