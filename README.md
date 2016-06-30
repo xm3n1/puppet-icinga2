@@ -11,7 +11,7 @@
 4. [Usage - Configuration options and additional functionality](#usage)
 5. [Reference - An under-the-hood peek at what the module is doing and how](#reference)
 5. [Limitations - OS compatibility, etc.](#limitations)
-6. [Development - Guide for contributing to the module](#development)
+6. [Icinga2-Classicui-If you want to use the Classicui](####Icinga2-Classicui)
 
 ## Overview
 
@@ -61,8 +61,7 @@ Configuration can be done using parameters to the classes, but using hiera is pr
 
 ## Usage
 
-FIXME: Put the classes, types, and resources for customizing, configuring, and doing
-the fancy stuff with your module here.
+This Module should be fully configured via Hiera. 
 
 ### Hiera
 
@@ -107,11 +106,14 @@ This module can be fully configured via Hiera. Examples for server and client fo
 
 ## Reference
 
-FIXME: Here, list the classes, types, providers, facts, etc contained in your module.
-This section should include all of the under-the-hood workings of your module so
-people know what the module is touching on their system but don't need to mess
-with things. (We are working on automating this section!)
+This Module is a customized Modul of the Icinga2 Puppet Modul.
 
+#### Icinga2-Classicui
+
+If you want to use the Classicui just use: http://ip/icinga2-classicui/
+
+Default user is:   icingaadmin
+Password is:       test
 ## Limitations
 
 Puppet >3 and Debian Jessie only currently, more to come.
